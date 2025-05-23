@@ -1,10 +1,12 @@
+import InlineComponent from "./components/InlineComponent";
 import Todo from "./components/Todo";
 
 function App() {
   return (
     <>
       <div>
-        <Todo />
+        {/* <Todo /> */}
+        <InlineComponent />
       </div>
     </>
   );
