@@ -6,7 +6,7 @@ margin: 0 auto;
 
 }
 
-.itemname{
+.itemName{
 font-weight: bold;
 padding: 20px;
 
@@ -18,4 +18,15 @@ padding: 20px;
     background-color: #f4f4f4;
     width: 100%;       /* makes sure it respects the parent's width */
     margin: 0 auto;    /* optional: centers it if not 100% width */
+  }
+
+  .deleteButton{
+    float: right;
+    padding: 12px 20px;
+    border: none;
+    background-color: #f7ca18;
+    color: white;
+    margin-top: -5px;
+    border-radius: 4px;
+    cursor: pointer;
   }
